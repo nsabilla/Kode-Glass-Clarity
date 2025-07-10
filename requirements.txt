@@ -1,0 +1,11 @@
+langchain==0.3.26
+langchain_community==0.3.27
+huggingface_hub==0.33.2
+sentence_transformers==4.1.0
+chromadb==1.0.15
+unstructured==0.18.3
+pdfminer.six==20250506
+pypdf==5.7.0
+pdf2image==1.17.0
+unstructured_inference
+unstructured_pytesseract
