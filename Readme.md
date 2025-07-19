@@ -1,6 +1,5 @@
 # Penerapan QnA Chatbot dengan Metode Mixtral 8x7B dan RAG: Studi Kasus pada Dokumen Kesehatan Tentang Parenting  
 ## Abstrak
-```
+
 Masa anak usia dini merupakan tahap krusial dalam tumbuh kembang anak, yang sangat dipengaruhi oleh kualitas pola asuh orang tua. Namun, masih banyak orang tua di Indonesia yang minim pengetahuan tentang pengasuhan, 
 terutama karena faktor usia muda dan kurangnya akses informasi. Hal ini berdampak pada masalah gizi, pertumbuhan, hingga kesehatan mental anak. Penelitian ini bertujuan untuk mengevaluasi efektivitas model bahasa Mixtral 8x7B-Instruct-v0.1 dalam memahami dan mengolah dokumen parenting menggunakan pendekatan Retrieval-Augmented Generation (RAG). Data parenting diperoleh melalui web scraping dari situs Hello Sehat, kemudian diproses dengan metode chunking, embedding menggunakan model all-mpnet base-v2, dan disimpan dalam Chroma DB sebagai vektor. Sistem dibangun dengan menggabungkan retriever, prompt template, dan language model untuk menjawab pertanyaan berbasis konteks. Hasil pengujian terhadap pertanyaan seperti “Kapan Anak Harus Mendapatkan Vaksin Hepatitis?” menunjukkan bahwa sistem dapat memberikan jawaban yang ringkas dan relevan. Evaluasi menggunakan BERTScore menunjukkan nilai F1-Score sebesar 0.8242%, menandakan kesamaan semantik tinggi dengan referensi. Temuan ini membuktikan bahwa integrasi Mixtral dan RAG efektif dalam memproses dokumen parenting serta berpotensi mendukung edukasi pengasuhan di Indonesia. 
-```
